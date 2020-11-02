@@ -1,0 +1,187 @@
+<html>
+<head>
+<title>gym website</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section>
+<header class="secondary">
+<div class="container">
+<div class="row">
+<a href="" class="logo"><img src="fitness11.jpg"></a>
+<nav>   
+<ul>
+
+<li><a href="">HOME</a></li>
+<li><a href="">WORK</a></li>
+<li><a href="">SERVICES</a></li>
+<li><a href="">CLIENTS</a></li>
+<li><a href="">OUR TEAM</a></li>
+<li><a href="">CONTACTS</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+<div class="wrap">
+<div id="arrow-left" class="arrow"></div>
+<div id="slider">
+<div class="slide slide1">
+<div class="slide-content">
+<ul>
+<li>
+<h1>WELCOME TO MY<br><span>GYM</span></h1>
+<p>"The resistance that you fight physically <br>
+in the gym and the resistance that you fight <br>
+in life can only build a strong character."</p><br>
+ <i class="fa fa-apple"></i>
+  <i class="fa fa-android"></i>
+   <i class="fa fa-windows"></i><br><br><br>
+   <a href="" class="btn btn-half">GET STARTED</a>
+   <a href="" class="btn btn-full">JOIN NOW</a>
+   
+   </li>
+   </ul>
+</div>
+</div>
+<div class="slide slide2">
+<div class="slide-content">
+<ul>
+<li>
+<h1>DO WORKOUT FOR <br><span>FITNESS</span></h1>
+<p>"In fitness, there are no short cuts. It<br> 
+involves immense discipline and hard work.<br>
+Fitness starts at home. What you eat is what you<br> 
+will look, just as what you sow is what you reap,
+It's about being better than you used to be."</p><br>
+ <i class="fa fa-apple"></i>
+  <i class="fa fa-android"></i>
+   <i class="fa fa-windows"></i><br><br><br>
+    <a href="" class="btn btn-half">GET STARTED</a>
+   <a href="" class="btn btn-full">JOIN NOW</a>
+   
+   </li>
+   </ul>
+</div>
+</div>
+<div class="slide slide3">
+<div class="slide-content">
+<ul>
+<li>
+<h1>EAT GOOD FOR<br><span>RESULTS</span></h1>
+<p>"The harder you train every day on the<br> 
+track and in the gym, the more trust you<br>
+ gain in yourself. Going to the gym is great<br>
+ for your body, but it's also great for your mind."</p><br>
+ <i class="fa fa-apple"></i>
+  <i class="fa fa-android"></i>
+   <i class="fa fa-windows"></i><br><br><br>
+    <a href="" class="btn btn-half">GET STARTED</a>
+   <a href="" class="btn btn-full">JOIN NOW</a>
+   
+   </li>
+   </ul>
+</div>
+</div>
+<div id="arrow-right" class="arrow"></div>
+</section>
+
+<section class="intro-area white" id="intro">
+<div class="container">
+<div class="row">
+<div class="head">
+<h2>WORK WITH SMILE</h2>
+<div class="sub-heading">
+<p>
+You'll find that life is still worthwhile, if you just smile,<br>
+Let us always meet each other with smile, for the smile is the beginning of love.
+
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<script>
+let sliderImages = document.querySelectorAll('.slide'),
+arrowLeft = document.querySelector('#arrow-left'),
+arrowRight = document.querySelector('#arrow-right'),
+current = 0;
+
+// clear all images
+function reset(){
+for(let i = 0; i < sliderImages.length; i++){
+sliderImages[i].style.display = 'none';
+}
+}
+//Initialization of slider
+function startSlide()
+{
+reset();
+sliderImages[0].style.display = 'block';
+}
+//show previous
+function slideLeft()
+{
+reset();
+sliderImages[current - 1].style.display = 'block';
+current--;
+}
+//show next
+function slideRight()
+{
+reset();
+sliderImages[current + 1].style.display = 'block';
+current++;
+}
+//left arrow click
+arrowLeft.addEventListener('click',function(){
+if(current === 0){
+current = sliderImages.length;
+}
+slideLeft();
+});
+//right arrow click
+arrowRight.addEventListener('click',function(){
+if(current === sliderImages.length-1){
+current = -1
+}
+slideRight();
+});
+startSlide();
+
+</script>
+
+
+
+
+
+</body>
+
+
+</html>

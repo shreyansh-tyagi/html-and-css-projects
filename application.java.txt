@@ -1,0 +1,14 @@
+import java.io.*;
+public class application
+{
+public static void main(String args[])
+{
+int i,j;
+for(i=o;i<=5;i++)
+{
+for(j=0;j<=i;j++)
+System.out.print(+i);
+System.out.println();
+}
+}
+}

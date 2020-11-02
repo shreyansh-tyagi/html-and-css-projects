@@ -1,0 +1,60 @@
+.hot{
+	margin:5px;
+	height:100px;
+width:575px;
+border:double 5px;
+	
+}
+p{
+	height:20px;
+	width:100%;
+	background-color:lightgreen;
+	
+}
+.hero{
+	background-color:orange;
+	height:50px;
+	width:100%;
+	margin:0;
+}
+.hero1 li{
+	display:inline-block;
+	padding:15px;
+	font-family:sans-serif;
+}
+.aboutus{
+	font-family:sans-serif;
+	width:5px;
+	background-color:orange;
+	border:none;
+	border-bottom:1px solid;
+	
+}
+option{
+	font-family:uppercase;
+}
+.faculty{
+	font-family:sans-serif;
+	width:5px;
+	background-color:orange;
+	border:none;
+	border-bottom:1px solid;
+	
+}
+.courses{
+	font-family:sans-serif;
+	width:5px;
+	background-color:orange;
+	border:none;
+	border-bottom:1px solid;
+
+}
+.hero1{
+	width:10px;
+	height:30px;
+	margin-top:10px;
+	
+	
+}
+
+

@@ -1,0 +1,98 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+header
+{
+	background-image: url(23.jpg);
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+
+}
+
+.hello1{
+	float:right;
+	life-style:none;
+	margin-top:50px;
+	
+}
+.hello1 li{
+	left:100px;
+	display:inline-block;
+    color:black;
+    padding:15px;
+    text-decoration:none;
+    font-family:sans-serif;
+    border:none;
+    border-bottom:5px solid ;
+
+}
+.hello1 a:hover{
+	cursor:pointer;
+	border:5px solid black;
+	background-color:lightgrey;
+	color:red;
+	padding:10px;
+}
+.logo{
+	height:auto;
+	width:200px;
+	border-radius:1000px;
+}
+body{
+	font-family:monospace;
+}
+
+	h1{
+	color:black;
+	font-size:50px;
+	font-family:sans-serif;
+	text-align:center;
+	margin-top:50px;
+	
+}
+
+.button {
+	text-align:center;
+	text-decoration:none;
+	font-size:20px;
+	font-family:sans-serif;
+	padding:30px;
+}
+.button1 {
+	color:black;
+	padding:20px;
+}
+.button2 {
+	color:black;
+	padding:20px;
+}
+.button1:hover{
+	color:red;
+	background-color:lightgrey;
+}
+.button2:hover {
+	color :red;
+	background-color:lightgrey;
+}
+a{
+	color:black;
+	text-decoration:none;
+	
+}
+marquee {
+	color:white;
+	font-size:50px;
+}
+
+
+
+
+
+
+
+
+
+
